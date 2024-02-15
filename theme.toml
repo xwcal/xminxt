@@ -1,0 +1,9 @@
+name = "xminxt"
+license = "MIT"
+description = "eXtremely MInimal NeXT, derived from Yihui Xie's XMin"
+tags = ["minimal", "blog", "personal", "clean", "simple", "starter", "minimalist"]
+features = ["blog"]
+min_version = "0.18"
+
+[author]
+  name = "Xiao Wan"
