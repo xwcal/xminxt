@@ -24,3 +24,12 @@
     </div>
     <hr/>
     </nav>
+    <script>
+    (function() {
+      let tswitch = document.querySelector('#color-theme-switch');
+      tswitch.checked = !!sessionStorage.getItem('color-theme-switch-checked');
+      tswitch.addEventListener('change', function(){
+	sessionStorage.setItem('color-theme-switch-checked', tswitch.checked? 'sure': '');
+      });
+    })()
+    </script>
